@@ -19,7 +19,8 @@ int main() {
     std::cout<< "Enter a number between 0-9 for your guess: ";
     std::cin >> userGuess;
 
-    // Using If Then statement statement to tell the user if they guessed correctly.
+    // Using If Then statement statement
+    // to tell the user if they guessed correctly.
     if (userGuess == CORRECT_GUESS) {
         std::cout << "You guessed correctly! The number is 7.";
     }
@@ -28,5 +29,4 @@ int main() {
     if (userGuess != CORRECT_GUESS) {
         std::cout << "You guessed incorrectly. Please try again!";
     }
-
 }
